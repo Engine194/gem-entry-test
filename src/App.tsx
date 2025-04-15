@@ -71,7 +71,7 @@ const App = () => {
   const isDisabledPlus = +size > 100 && unit === 0;
 
   return (
-    <div className="text-xs w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100">
+    <div className="text-xs w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100 text-[#aaa]">
       <div className="w-[17.5rem] min-h-[7.5rem] bg-[#151515]-800 p-4">
         <div className="flex items-center gap-x-2">
           <p className="min-w-[6.25rem]">{"Unit"}</p>
