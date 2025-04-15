@@ -58,7 +58,7 @@ const App = () => {
   const handlePlus = useCallback(() => {
     setSize((prev) => {
       const nextSize = +prev + 1;
-      if ((prev === "100" && unit === 0) || nextSize > 100) {
+      if ((prev === "100" || nextSize > 100) && unit === 0) {
         sizeRef.current = "100";
         return "100";
       }
