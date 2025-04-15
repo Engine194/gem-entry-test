@@ -102,7 +102,7 @@ const App = () => {
               show={isDisabledMinus}
             >
               <button
-                className="p-2 cursor-pointer disabled:text-[#aaa]"
+                className="p-2 not-disabled:cursor-pointer disabled:text-[#aaa] hover:not-disabled:bg-[#3b3b3b] rounded-s-[0.5rem]"
                 type="button"
                 disabled={isDisabledMinus}
                 onClick={handleMinus}
@@ -123,7 +123,7 @@ const App = () => {
               show={isDisabledPlus}
             >
               <button
-                className="p-2 cursor-pointer disabled:text-[#aaa]"
+                className="p-2 not-disabled:cursor-pointer disabled:text-[#aaa] hover:not-disabled:bg-[#3b3b3b] rounded-e-[0.5rem]"
                 type="button"
                 disabled={isDisabledPlus}
                 onClick={handlePlus}
