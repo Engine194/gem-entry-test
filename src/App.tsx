@@ -69,7 +69,7 @@ const App = () => {
   }, [unit]);
 
   const isDisabledMinus = +size === 0;
-  const isDisabledPlus = +size > 100 && unit === 0;
+  const isDisabledPlus = +size >= 100 && unit === 0;
 
   return (
     <div className="text-xs w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100 text-[#aaa]">
