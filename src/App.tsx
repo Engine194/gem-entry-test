@@ -33,6 +33,7 @@ const App = () => {
     (val: number) => {
       return () => {
         if (val === 0 && +size > 100) {
+          sizeRef.current = "100";
           handleValidateSize("100");
         }
         setUnit(val);
