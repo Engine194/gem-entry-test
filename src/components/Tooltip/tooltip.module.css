@@ -1,0 +1,10 @@
+.tooltip::after {
+  content: "";
+  border-style: solid;
+  border-color: transparent #3b3b3b #3b3b3b transparent;
+  border-width: 0.25rem;
+  position: absolute;
+  bottom: -0.45rem;
+  left: 50%;
+  transform: rotate(45deg) translateX(-74%);
+}
